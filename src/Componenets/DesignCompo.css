@@ -1,0 +1,22 @@
+/* Basic button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #be0000;
+    color: #cb2323;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .button:hover {
+    background-color: #1ebe6e;
+  }
+  
+  /* Button active/pressed effect */
+  .button:active {
+    background-color: #bbff00;
+  }
+  
