@@ -17,7 +17,7 @@ const Rng = () => {
   return (
     <div>
       <h1>Random Number Generator from iamabdur</h1>
-      <button onClick={generateRandomNumber}>Generate Random Numbers</button>
+      <button onClick={generateRandomNumber}>Generate Random Number</button>
       {randomNumber !== null && <p>Random Number: {randomNumber}</p>}
     </div>
   );
